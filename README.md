@@ -1,4 +1,4 @@
-![Logo](https://i.imgur.com/psCk5zC.png)
+<p align="center"><img src="https://i.imgur.com/psCk5zC.png"></p>
 
 # Anti-Phish Implementation
 
