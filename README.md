@@ -1,20 +1,20 @@
 ![Logo](https://i.imgur.com/psCk5zC.png)
 
 # Anti-Phish Implementation
-___
+
 This library is an anti-phising implementation that is easy to implement in your bot. This library was made to flatten the curve on the growing rate of phising attempts on discord.
 
 ## Installation
-___
+
 ```
     npm i anti-phish-implementation
 ```
 
 ## Usage
-___
+
 
 ### Default
-___
+
 ```js
     const { Fish } = require("anti-phish-implementation"); //import fish client
     const { Client } = require("discord.js"); //import disc client
@@ -26,7 +26,7 @@ ___
 ```
 
 ### Kick / Ban
-___
+
 ```js
     const { Fish } = require("anti-phish-implementation"); //import fish client
     const { Client } = require("discord.js"); //import disc client
@@ -38,7 +38,7 @@ ___
 ```
 
 ### Custom Embed / Ban & Kick Reason
-___
+
 ```js
     const { Fish } = require("anti-phish-implementation"); //import fish client
     const { Client, MessageEmbed } = require("discord.js"); //import disc client
@@ -51,10 +51,10 @@ ___
 ```
 
 ## Info
-___
+
 
 ### MessageEmbed Description Params
-___
+
 
 |  Parameter   |   Description   |
 |--------------|----------------:|
@@ -67,15 +67,15 @@ ___
 
 
 ## Extra
-___
+
 This library of this project was made to be very easy to use. Keeping that in mind, there is an advanced of this project, which can be found at [SakiyaDev/anti-phish-advanced](https://github.com/SakiyaDev/anti-phish-advanced) on Github, and [anti-phish-advanced](https://www.npmjs.com/package/anti-phish-advanced) on NPM.
 
 ## Contributing
-___
+
 Contributes are welcomed, please create a pull request to make any changes. But for major changes, please open an issue first to let us know what you would like to change.
 
 *Make sure to update tests appropriately, depending on changes. Thanks!*
 
 ## License
-___
+
 [APGL-3.0](https://choosealicense.com/licenses/agpl-3.0/)
