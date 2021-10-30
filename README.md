@@ -7,7 +7,7 @@ This library is an anti-phising implementation that is easy to implement in your
 ## Installation
 
 ```
-    npm i anti-phish-implementation
+npm i anti-phish-implementation
 ```
 
 ## Usage
@@ -16,38 +16,38 @@ This library is an anti-phising implementation that is easy to implement in your
 ### Default
 
 ```js
-    const { Fish } = require("anti-phish-implementation"); //import fish client
-    const { Client } = require("discord.js"); //import disc client
+const { Fish } = require("anti-phish-implementation"); //import fish client
+const { Client } = require("discord.js"); //import disc client
 
-    const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc client
-    const fish = new Fish(bot, { enabled: true }); //create fish client
+const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc client
+const fish = new Fish(bot, { enabled: true }); //create fish client
 
-    fish.init(); //initialize the anti-phising feature
+fish.init(); //initialize the anti-phising feature
 ```
 
 ### Kick / Ban
 
 ```js
-    const { Fish } = require("anti-phish-implementation"); //import fish client
-    const { Client } = require("discord.js"); //import disc client
+const { Fish } = require("anti-phish-implementation"); //import fish client
+const { Client } = require("discord.js"); //import disc client
 
-    const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc client
-    const fish = new Fish(bot, { enabled: true, kick: false, ban: false }); //create fish client
+const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc client
+const fish = new Fish(bot, { enabled: true, kick: false, ban: false }); //create fish client
 
-    fish.init(); //initialize the anti-phising feature
+fish.init(); //initialize the anti-phising feature
 ```
 
 ### Custom Embed / Ban & Kick Reason
 
 ```js
-    const { Fish } = require("anti-phish-implementation"); //import fish client
-    const { Client, MessageEmbed } = require("discord.js"); //import disc client
+const { Fish } = require("anti-phish-implementation"); //import fish client
+const { Client, MessageEmbed } = require("discord.js"); //import disc client
 
-    const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc client
-    const tstEm = new MessageEmbed().setColor("RED").setTitle("Test Embed").setDescription("{member} hey");
-    const fish = new Fish(bot, { enabled: true, kick: false, ban: false, reason: "Test Reason", embed: tstEm }); //create fish client
+const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc client
+const tstEm = new MessageEmbed().setColor("RED").setTitle("Test Embed").setDescription("{member} hey");
+const fish = new Fish(bot, { enabled: true, kick: false, ban: false, reason: "Test Reason", embed: tstEm }); //create fish client
 
-    fish.init(); //initialize the anti-phising feature
+fish.init(); //initialize the anti-phising feature
 ```
 
 ## Info
