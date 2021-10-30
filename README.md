@@ -76,6 +76,10 @@ Contributes are welcomed, please create a pull request to make any changes. But 
 
 *Make sure to update tests appropriately, depending on changes. Thanks!*
 
+## Bugs
+
+Please report any bugs in [issues](https://github.com/SakiyaDev/anti-phish-implementation/issues) with the bug tag! Thank you!
+
 ## License
 
 [APGL-3.0](https://choosealicense.com/licenses/agpl-3.0/)
