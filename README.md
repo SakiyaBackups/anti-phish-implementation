@@ -2,7 +2,7 @@
 
 # Anti-Phish Implementation
 
-This library is an anti-phising implementation that is easy to implement in your bot. This library was made to flatten the curve on the growing rate of phising attempts on discord.
+This library is an anti-phishing implementation that is easy to implement in your bot. This library was made to flatten the curve on the growing rate of phishing attempts on discord.
 
 ## Installation
 
@@ -22,7 +22,7 @@ const { Client } = require("discord.js"); //import disc client
 const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc client
 const fish = new Fish(bot, { enabled: true }); //create fish client
 
-fish.init(); //initialize the anti-phising feature
+fish.init(); //initialize the anti-phishing feature
 ```
 
 ### Kick / Ban
@@ -34,7 +34,7 @@ const { Client } = require("discord.js"); //import disc client
 const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc client
 const fish = new Fish(bot, { enabled: true, kick: false, ban: false }); //create fish client
 
-fish.init(); //initialize the anti-phising feature
+fish.init(); //initialize the anti-phishing feature
 ```
 
 ### Custom Embed / Ban & Kick Reason
@@ -47,7 +47,7 @@ const bot = new Client({ intents: ["GUILD_MESSAGES", "GUILDS"] }); //create disc
 const tstEm = new MessageEmbed().setColor("RED").setTitle("Test Embed").setDescription("{member} hey");
 const fish = new Fish(bot, { enabled: true, kick: false, ban: false, reason: "Test Reason", embed: tstEm }); //create fish client
 
-fish.init(); //initialize the anti-phising feature
+fish.init(); //initialize the anti-phishing feature
 ```
 
 ## Info
@@ -62,7 +62,7 @@ fish.init(); //initialize the anti-phising feature
 |  `{mention}` | Mentions phiser |
 |   `{kick}`   | Kick boolean    |
 |    `{ban}`   | Ban boolean     |
-|   `{link}`   | Phising link    |
+|   `{link}`   | Phishing link   |
 |   `{type}`   | Link type       |
 
 
