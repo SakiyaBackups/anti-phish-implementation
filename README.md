@@ -68,7 +68,7 @@ fish.init(); //initialize the anti-phising feature
 
 ## Extra
 
-This library of this project was made to be very easy to use. Keeping that in mind, there is an advanced of this project, which can be found at [SakiyaDev/anti-phish-advanced](https://github.com/SakiyaDev/anti-phish-advanced) on Github, and [anti-phish-advanced](https://www.npmjs.com/package/anti-phish-advanced) on NPM, once it is done! (WIP)
+This library of this project was made to be very easy to use. Keeping that in mind, there is an advanced of this project, which can be found at [SakiyaDev/anti-phish-advanced](https://github.com/SakiyaDev/anti-phish-advanced) on Github, and [anti-phish-advanced](https://www.npmjs.com/package/anti-phish-advanced) on NPM.
 
 ## Contributing
 
