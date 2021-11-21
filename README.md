@@ -4,6 +4,10 @@
 
 This library is an anti-phishing implementation that is easy to implement in your bot. This library was made to flatten the curve on the growing rate of phishing attempts on discord.
 
+## Important
+
+**This library does not support discord.js@v12, so please use the [advanced version](https://npmjs.com/anti-phish-advanced) if you wish to use discord.js@v12!**
+
 ## Installation
 
 ```
