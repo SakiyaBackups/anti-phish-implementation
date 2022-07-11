@@ -1,6 +1,6 @@
 {
   "name": "anti-phish-implementation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An implementation that you can add to your discord bot to increase the reach of anti-phishing tools on discord!",
   "main": "lib/index.js",
   "typings": "./typings/index.d.ts",
