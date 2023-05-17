@@ -1,3 +1,6 @@
+# WARNING: LIBRARY CURRENTLY UNMAINTAINED
+### Please use [the advanced version](https://npmjs.com/anti-phish-advanced) instead!
+
 <p align="center"><img src="https://i.imgur.com/psCk5zC.png"></p>
 
 # Anti-Phish Implementation
